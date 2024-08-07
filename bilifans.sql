@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `fansdata`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `fansdata` (
-  `uid` int(10) NOT NULL,
+  `uid` bigint(10) NOT NULL,
   `nick` char(15) NOT NULL,
   `dailyFans` int(8) NOT NULL,
   `monthlyFans` int(8) NOT NULL,
